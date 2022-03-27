@@ -69,8 +69,6 @@ GEM
       octokit (~> 4.0)
       public_suffix (~> 2.0)
       typhoeus (~> 0.7)
-    hash-joiner (0.0.7)
-      safe_yaml
     html-pipeline (2.6.0)
       activesupport (>= 2)
       nokogiri (>= 1.4)
@@ -195,13 +193,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  execjs
   github-pages
-  hash-joiner
-  jekyll
   jekyll-paginate
-  jekyll-redirect-from
-  jekyll-sitemap
-  rouge
+
+RUBY VERSION
+   ruby 2.7.2p137
 
 BUNDLED WITH
-   1.14.6
+   1.17.2

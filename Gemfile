@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
-gem 'jekyll'
+ruby '2.7.2'
+
+gem 'execjs'
 gem 'github-pages'
-gem 'hash-joiner'
-gem 'jekyll-sitemap'
 gem 'jekyll-paginate'
-gem 'jekyll-redirect-from'
-gem 'rouge'
+
+
